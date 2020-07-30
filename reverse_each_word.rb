@@ -3,6 +3,7 @@ def reverse_each_word(string)
   reverse_array = newarr.map do |x|
     x.reverse 
   end
+  reverse_array.join(" ")
 end
 
 
